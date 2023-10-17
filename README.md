@@ -36,6 +36,10 @@ Please cite our paper if you find the work useful:
 }
 </pre>
 
+## Terms of use
+
+The use of the Kvasir-SEG dataset is restricted for research and educational purposes. Using the Kvasir-SEG dataset for commercial purposes is forbidden without prior written permission. For other reasons, please feel free to contact us (see below). In all documents and publications that use the Kvasir-SEG dataset or report experimental results based on the Kvasir-SEG dataset, a reference to the dataset paper has to be included (see below). 
+
 ## Contact
 please contact debeshjha1@gmail.com for any further questions. 
 
