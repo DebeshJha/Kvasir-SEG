@@ -11,6 +11,14 @@ Colorectal polyp segmentation is a demanding task in medical image segmentation.
 
 The figure shows the example images from Kvasir-SEG. The white mask shows the area covered by the polyp region, and the background regions contain non-polyp tissue pixels. Few image samples contain the endoscope position marking probe that shows the position from where the images were captured. The images in the Kvasir-SEG were captured using ScopeGuide (Olympus). It is to be noted that in the Kvasir-SEG, we have replaced 13 images from the polyp class to enhance the dataset quality. We have put images and masks into a separate folder. The information about the bounding box is stored in JSON file format. The image name and its corresponding ground truth are the same.
 
+### Kvasir-SEG Dataset Details
+The Kvasir-SEG dataset (size 46.2 MB) contains 1000 polyp images and their corresponding ground truth from the Kvasir Dataset v2. The resolution of the images contained in Kvasir-SEG varies from 332x487 to 1920x1072 pixels. The images and its corresponding masks are stored in two separate folders with the same filename. The image files are encoded using JPEG compression, and online browsing is facilitated. The open-access dataset can be easily downloaded for research and educational purposes.
+
+The bounding box (coordinate points) for the corresponding images are stored in a JSON file. This dataset is designed to push the state-of-the-art solution for the polyp detection task. Some examples of the dataset.
+
+### Suggested Metrics
+There are different metrics for evaluating the performance of the architectures on the image segmentation dataset. For medical image segmentation tasks, the most commonly used ones are the Dice coefficient and Intersection over Union (IOU). Based on related work in this field, we have used these metrics to evaluate the algorithms. In future work, we encourage using these metrics to evaluate the model's performance. In the future, it is better to include as many as possible metrics for a fair comparison of the models.
+
 ## Downloadable link: 
 
 Kvasir-SEG can be downloaded from [here](https://datasets.simula.no/kvasir-seg/). No prior permission is required for downloading when using the dataset for academic and research purposes. For commercial purposes, prior permission is required. We have received a few requests to use the dataset for commercial purposes and have approved them all. The dataset has also been used in a few competitions and challenges. The baseline results can be found here. Through these baseline results, we also invite other medical image analysis and multimedia research to develop and improve the current SOTA. Portions of the research community have adopted the Kvasir-SEG to benchmark their new ML algorithms and develop novel methods on the dataset.
