@@ -29,5 +29,5 @@ Please cite our paper if you find the work useful:
 </pre>
 
 ## Contact
-please contact debeshjha1@gamil.com for any further questions. 
+please contact debeshjha1@gmail.com for any further questions. 
 
