@@ -11,4 +11,23 @@ Colorectal polyp segmentation is a demanding task in medical image segmentation.
 
 The figure shows the example images from Kvasir-SEG. The white mask shows the area covered by the polyp region, and the background regions contain non-polyp tissue pixels. Few image samples contain the endoscope position marking probe that shows the position from where the images were captured. The images in the Kvasir-SEG were captured using ScopeGuide (Olympus). It is to be noted that in the Kvasir-SEG, we have replaced 13 images from the polyp class to enhance the dataset quality. We have put images and masks into a separate folder. The information about the bounding box is stored in JSON file format. The image name and its corresponding ground truth are the same.
 
-Kvasir-SEG can be downloaded from here3. No prior permission is required for downloading when using the dataset for academic and research purposes. For commercial purposes, prior permission is required. We have received a few requests to use the dataset for commercial purposes and have approved them all. The dataset has also been used in a few competitions and challenges. The baseline results can be found here. Through these baseline results, we also invite other medical image analysis and multimedia research to develop and improve the current SOTA. Portions of the research community have adopted the Kvasir-SEG to benchmark their new ML algorithms and develop novel methods on the dataset.
+## Downloadable link: 
+
+Kvasir-SEG can be downloaded from [here](https://datasets.simula.no/kvasir-seg/). No prior permission is required for downloading when using the dataset for academic and research purposes. For commercial purposes, prior permission is required. We have received a few requests to use the dataset for commercial purposes and have approved them all. The dataset has also been used in a few competitions and challenges. The baseline results can be found here. Through these baseline results, we also invite other medical image analysis and multimedia research to develop and improve the current SOTA. Portions of the research community have adopted the Kvasir-SEG to benchmark their new ML algorithms and develop novel methods on the dataset.
+
+
+## Citation
+Please cite our paper if you find the work useful: 
+<pre>
+@inproceedings{jha2020kvasir,
+  title={Kvasir-seg: A segmented polyp dataset},
+  author={Jha, Debesh and Smedsrud, Pia H and Riegler, Michael A and Halvorsen, P{\aa}l and de Lange, Thomas and Johansen, Dag and Johansen, H{\aa}vard D},
+  booktitle={MultiMedia Modeling: 26th International Conference, MMM 2020, Daejeon, South Korea, January 5--8, 2020, Proceedings, Part II 26},
+  pages={451--462},
+  year={2020}
+}
+</pre>
+
+## Contact
+please contact debeshjha1@gamil.com for any further questions. 
+
