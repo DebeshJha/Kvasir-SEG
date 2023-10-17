@@ -1,8 +1,14 @@
-# Kvasir-SEG
+# Kvasir-SEG: A Segmented Polyp Dataset
 
-Please find the paper here: [Kvasir-SEG: A Segmented Polyp Dataset](https://arxiv.org/pdf/1911.07069.pdf),
+📑 **Please find the paper here**: [Kvasir-SEG: A Segmented Polyp Dataset](https://arxiv.org/pdf/1911.07069.pdf),
 
 Colorectal polyp segmentation is a demanding task in medical image segmentation. Research in polyp segmentation using computer vision techniques can improve examination procedures and reduce the polyp miss rate during colonoscopy. However, finding the publicly available dataset is challenging. Even if the images are available, obtaining ground truth that shows the pixel-precise region covered by polyps is challenging. In this context, we selected the polyp class of the Kvasir dataset and annotated it with the help of a medical doctor and an expert gastroenterologist. The information about the Kvasir dataset collection procedure and dataset details can be found on this webpage. By adding ground truth and bounding box information to the Kvasir dataset's polyp class, we encourage computer vision and multimedia community researchers to develop methods that can contribute to automated polyp segmentation. 
+
+🔍 **Use-Cases**:
+- Semantic sementation
+- Polyp segmentation
+- Medical image segmentation
+- Benchmarking of the different deep learing
 
 ### Dataset sample
 <img src="Kvasir-seg.png">
@@ -23,6 +29,9 @@ There are different metrics for evaluating the performance of the architectures 
 
 Kvasir-SEG can be downloaded from [here](https://datasets.simula.no/kvasir-seg/). No prior permission is required for downloading when using the dataset for academic and research purposes. For commercial purposes, prior permission is required. We have received a few requests to use the dataset for commercial purposes and have approved them all. The dataset has also been used in a few competitions and challenges. The baseline results can be found here. Through these baseline results, we also invite other medical image analysis and multimedia research to develop and improve the current SOTA. Portions of the research community have adopted the Kvasir-SEG to benchmark their new ML algorithms and develop novel methods on the dataset.
 
+## Publication:
+[Arxiv] (https://arxiv.org/pdf/1911.07069.pdf)
+[Official publication](https://link.springer.com/chapter/10.1007/978-3-030-37734-2_37)
 
 ## Citation
 Please cite our paper if you find the work useful: 
